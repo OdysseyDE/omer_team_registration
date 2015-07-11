@@ -17,7 +17,7 @@ abstract class AuthenticatedCommand extends Command
   protected function authenticate ( )
   {
     $auth = new Authentication();
-    if ( ($user = $auth->authenticate($_POST['Login']['Username'],$_POST['Login']['Password'])) !== false )
+    if ( ($user = $auth->authenticate($_POST['Login']['Username'],hash('sha512',$_POST['Login']['Password']))) !== false )
       {
         if ( !isset($_SESSION['Authenticated']) )
           $_SESSION['Authentication'] = array();
