@@ -2,7 +2,7 @@
 
 <title></title>
 <meta charset="utf-8" />
-<meta name="Title" content="Bluetooth">
+<meta name="Title" content="Omer Team Registration">
 <meta name="Author" content="">
 <meta name="Copyright" content="">
 <meta name="Publisher" content="">
@@ -18,7 +18,7 @@
 
 {if $mode == "dev"}
   <link rel="stylesheet" type="text/css" href="/Style/theme.css">
-  <link rel="stylesheet" type="text/css" href="/Style/bluetooth.css" />
+  <link rel="stylesheet" type="text/css" href="/Style/omer_team_registration.css" />
 {else}
-  <link rel="stylesheet" type="text/css" href="/dist/bluetooth.{$Settings.Version}.css" />
+  <link rel="stylesheet" type="text/css" href="/dist/omer_team_registration.{$Settings.Version}.css" />
 {/if}

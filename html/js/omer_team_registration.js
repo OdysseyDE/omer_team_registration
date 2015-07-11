@@ -3,49 +3,6 @@ oTable = null;
 $(document).ready(function() {
     $('.focused').focus().select();
 
-    $('#beacons').DataTable( {
-        stateSave: true,
-        stateDuration: 0,
-        order: [[0,'desc']],
-        language: { url: ermittleDatatablesSprachfile() },
-        "aoColumns": [
-            null,
-            null
-        ]
-    });
-    
-    $('#clients').DataTable( {
-        stateSave: true,
-        stateDuration: 0,
-        order: [[0,'desc']],
-        language: { url: ermittleDatatablesSprachfile() },
-        "aoColumns": [
-            null,
-            null
-        ]
-    });
-    
-    $('#positions').DataTable( {
-        stateSave: true,
-        stateDuration: 0,
-        language: { url: ermittleDatatablesSprachfile() },
-        columnDefs: [
-            {
-                targets: [3],
-                orderData: [5]
-            },
-            {
-                targets: [4],
-                orderData: [6]
-            },
-            {
-                "visible": false,
-                "targets": [5,6],
-                "className": "never"
-            }
-        ]
-    });
-
     $('.datepicker').datepicker( { 
         showButtonPanel: false,
         regional: "de"

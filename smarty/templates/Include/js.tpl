@@ -7,7 +7,7 @@
   <script type="text/javascript" src="/js/scripts.js"></script>
   <script type="text/javascript" src="/js/jquery.validate.js"></script>
   <script type="text/javascript" src="/js/language_support/jquery.ui.datepicker-de.js"></script>
-  <script type="text/javascript" src="/js/bluetooth.js"></script>
+  <script type="text/javascript" src="/js/omer_team_registration.js"></script>
 {else}
-  <script type="text/javascript" src="/dist/bluetooth.{$Settings.Version}.js"></script>
+  <script type="text/javascript" src="/dist/omer_team_registration.{$Settings.Version}.js"></script>
 {/if}

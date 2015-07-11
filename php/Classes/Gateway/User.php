@@ -18,13 +18,19 @@ class Gateway_User extends Gateway_Base
     return $users;
   }
 
-  public function authenticate ( $user, $password )
+  public function authenticate ( $user, $passwordHash )
   {
-    $sql = 'SELECT id FROM users WHERE email = ? AND passwort = SHA1(?)';
-    $data = array($user,$password);
+    $sql = 'SELECT id FROM users WHERE email = ? AND passwort = ?';
+    $data = array($user,$passwordHash);
     return $this->findOne($this->getOne($sql,$data));
   }
 
+  public function create ( $email, $passwordHash )
+  {
+    $sql = 'INSERT INTO users SET email = ?, passwort = ?';
+    $this->query($sql,array($email,$passwordHash));
+  }
+  
 }
 
 ?>

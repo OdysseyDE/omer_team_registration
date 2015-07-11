@@ -5,8 +5,8 @@ module.exports = function(grunt) {
         concat: {
             css: {
                 src: ['Style/theme.css',
-                      'Style/bluetooth.css'],
-                dest: 'dist/bluetooth.concat.css'
+                      'Style/omer_team_registration.css'],
+                dest: 'dist/omer_team_registration.concat.css'
             },
             js: {
                 src: ['js/jquery-2.1.3.js',
@@ -16,20 +16,20 @@ module.exports = function(grunt) {
                       'js/scripts.js',
                       'js/jquery.validate.js',
                       'js/language_support/jquery.ui.datepicker-de.js',
-                      'js/bluetooth.js'],
-                dest: 'dist/bluetooth.concat.js'
+                      'js/omer_team_registration.js'],
+                dest: 'dist/omer_team_registration.concat.js'
             }
         },
         uglify: {
             js: {
                 src: ['<%= concat.js.dest %>'],
-                dest: 'dist/bluetooth.js'
+                dest: 'dist/omer_team_registration.js'
             }
         },
         cssmin: {
             css: {
                 src: ['<%= concat.css.dest %>'],
-                dest: 'dist/bluetooth.css'
+                dest: 'dist/omer_team_registration.css'
             }
         }
     });

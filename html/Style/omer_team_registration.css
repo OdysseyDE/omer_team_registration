@@ -571,3 +571,5 @@ select.valid, input.valid, textarea.valid { background: #dfd; }
 	filter: Alpha(Opacity=20);
 	border-radius: 10px;
 }
+
+#emailRepeat { visibility: hidden; }

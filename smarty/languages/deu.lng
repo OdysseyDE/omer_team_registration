@@ -1,37 +1,14 @@
 LABEL_EmailAdresse=Email-Adresse
 LABEL_Passwort=Passwort
+LABEL_PasswortVergessen=Passwort vergessen?
+LABEL_Register=Registrieren
 
 BUTTON_Login=Login
 BUTTON_Logout=Logout
 BUTTON_Add=Hinzufügen
-BUTTON_AddBeacon=Beacon hinzufügen
 BUTTON_Submit=Änderungen übernehmen
-BUTTON_AddClient=Client hinzufügen
-BUTTON_AddPosition=Position hinzufügen
-
-MENU_Positionen=Aktuelle Positionen
-MENU_Beacons=Beacons
-MENU_Clients=Clients
-MENU_AddPosition=Manuelle Positionserfassung
-
-HEADING_AddBeacon=Neuen Beacon hinzufügen
-HEADING_EditBeacon=Beacon bearbeiten
-HEADING_AddClient=Neuen Client hinzufügen
-HEADING_EditClient=Client bearbeiten
-
-LABEL_Kennung=Kennung
-LABEL_Bezeichnung=Bezeichnung
-LABEL_ClientID=Client-ID
-LABEL_Beacon=Beacon
-LABEL_Client=Client
-LABEL_Distance=Entfernung
-LABEL_BatteryInProzent=Batterieladezustand in %
-LABEL_Battery=Batterieladezustand
-LABEL_Zeitpunkt=Zeitpunkt
+BUTTON_Register=Registrieren
+BUTTON_NutzerAnlegen=Registrierung abschließen
 
 TXT_Success=Änderungen übernommen
 TXT_ChooseOne=Bitte wählen ...
-
-OPTION_Far=Far
-OPTION_Intermediate=Intermediate
-OPTION_Near=Near
