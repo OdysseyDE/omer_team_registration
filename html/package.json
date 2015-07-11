@@ -1,0 +1,9 @@
+{
+    "name": "omer_team_registration",
+    "devDependencies": {
+        "grunt": ">=0.4.5",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-uglify": "*"
+    }
+}
