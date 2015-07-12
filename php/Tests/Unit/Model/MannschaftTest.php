@@ -7,7 +7,7 @@ class MannschaftTest extends BaseTestCase
 {
   public function testConstructor ( )
   {
-    $mannschaft = new Mannschaft(1,'name','schule','problem','altersgruppe');
+    $mannschaft = new Mannschaft(1,'name','schule','altersgruppe');
     $this->assertEquals(1,$mannschaft->id);
     $this->assertEquals('name',$mannschaft->name);
     $this->assertEquals('schule',$mannschaft->schule);
