@@ -11,7 +11,6 @@ class MannschaftTest extends BaseTestCase
     $this->assertEquals(1,$mannschaft->id);
     $this->assertEquals('name',$mannschaft->name);
     $this->assertEquals('schule',$mannschaft->schule);
-    $this->assertEquals('problem',$mannschaft->problem);
     $this->assertEquals('altersgruppe',$mannschaft->altersgruppe);
     $this->assertEquals('name - schule',$mannschaft->__toString());
   }
@@ -22,7 +21,6 @@ class MannschaftTest extends BaseTestCase
     $this->assertNull($mannschaft->id);
     $this->assertNull($mannschaft->name);
     $this->assertNull($mannschaft->schule);
-    $this->assertNull($mannschaft->problem);
     $this->assertNull($mannschaft->altersgruppe);
     $this->assertEquals('',$mannschaft->__toString());
   }

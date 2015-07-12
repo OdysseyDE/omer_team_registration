@@ -9,19 +9,13 @@
     <form method="post" class="standardValidation">
       <div class="form-group">
         <label class="required" for="name">##LABEL_Name##:</label>
-        <input type="text" name="Mannschaft[name]" value="{$Mannschaft->name}" class="required form-control"/>
+        <input type="text" name="Mannschaft[name]" value="{$Mannschaft->name}" class="required form-control" placeholder="##TXT_NameMannschaft##" />
       </div>
       <div class="form-group">
-        <label class="required" for="number">##LABEL_Number##:</label>
-        <input type="text" name="Mannschaft[nummer]" value="{$Mannschaft->nummer}" class="required form-control"/>
+        <label class="required" for="schule">##LABEL_Schule##:</label>
+        <input type="text" name="Mannschaft[schule]" value="{$Mannschaft->schule}" class="required form-control"/>
       </div>
-      <div class="form-group">
-        <label for="number">##LABEL_Tags##:</label>
-        <div class="bootstrap-tagsinput">
-          <input type="text" name="Mannschaft[gruppen]" value="{$Mannschaft->gruppen}" data-role="tagsinput tag-default" class="form-control">
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary bold">##BUTTON_Submit##</button>
+      <button type="submit" class="btn btn-primary bold">{if $Mannschaft->id > 0}##BUTTON_Submit##{else}##BUTTON_MannschaftAnmelden##{/if}</button>
     </form>
   </div>
 </div>

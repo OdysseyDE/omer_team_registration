@@ -13,8 +13,11 @@ BUTTON_Add=Hinzufügen
 BUTTON_Submit=Änderungen übernehmen
 BUTTON_Register=Registrieren
 BUTTON_NutzerAnlegen=Registrierung abschließen
+BUTTON_MannschaftAnmelden=Mannschaft jetzt anmelden
 
 TXT_Success=Änderungen übernommen
 TXT_ChooseOne=Bitte wählen ...
+TXT_NameMannschaft=Wie nennt sich die Mannschaft?
 
 HEADING_Mannschaften=Mannschaften
+HEADING_AddMannschaft=Neue Mannschaft anmelden
