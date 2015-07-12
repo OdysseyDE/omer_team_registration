@@ -2,6 +2,10 @@ LABEL_EmailAdresse=Email-Adresse
 LABEL_Passwort=Passwort
 LABEL_PasswortVergessen=Passwort vergessen?
 LABEL_Register=Registrieren
+LABEL_Name=Name
+LABEL_Schule=Schule
+LABEL_Problem=Problem
+LABEL_Altersgruppe=Altersgruppe
 
 BUTTON_Login=Login
 BUTTON_Logout=Logout
@@ -12,3 +16,5 @@ BUTTON_NutzerAnlegen=Registrierung abschließen
 
 TXT_Success=Änderungen übernommen
 TXT_ChooseOne=Bitte wählen ...
+
+HEADING_Mannschaften=Mannschaften
