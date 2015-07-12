@@ -2,8 +2,19 @@
 
 abstract class Command
 {
+  protected $event;
+  protected $formular;
+  
   public function __construct ( )
   {
+    $this->event = new Event(0,
+                             'Deutschlandfinale 2016',
+                             '03./04. März 2016',
+                             new Datumsbereich(new Datum('2015-07-12'),new Datum('2016-03-01')),
+                             'Weinberggymnasium Kleinmachnow',
+                             'christian@odysseyofthemind.de;juliane@odysseyofthemind.de');
+    $this->formular = new Formular(0,'Formular');
+    $this->formular->addElement(new FormularElement(11,'##LABEL_Name##','input',true,'##TXT_NameMannschaft##');
   }
 
   protected function success ( $text = "##TXT_Success##" )

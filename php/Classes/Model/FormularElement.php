@@ -5,8 +5,9 @@ class FormularElement extends BaseClassWithID
   protected $label;
   protected $typ;
   protected $required;
-
-  public function __construct ( $id = null, $label = null, $typ = null, $required = false )
+  protected $placeholder;
+  
+  public function __construct ( $id = null, $label = null, $typ = null, $required = false, $placeholder = null )
   {
     parent::__construct($id);
 
@@ -15,6 +16,7 @@ class FormularElement extends BaseClassWithID
     $this->label = $label;
     $this->typ = $typ;
     $this->required = (bool)$required;
+    $this->placeholder = $placeholder;
   }
   
 }
